@@ -17,13 +17,13 @@ def artifactory_wrapper(parser, xml_parent, data):
                   deploy-pattern: string
                   resolve-pattern: string
                   matrix-params: string
-                  deploy-buildinfo: boolean
-                  include-envvars: boolean
+                  deploy-build-info: boolean
+                  include-env-vars: boolean
                   env-vars-patterns:
                       include-patterns: string
                       exclude-patterns: string
-                  discard-oldbuilds: boolean
-                  discard-buildartifacts: boolean
+                  discard-old-builds: boolean
+                  discard-build-artifacts: boolean
                   multi-conf-project: boolean
     """
     if data is None:
