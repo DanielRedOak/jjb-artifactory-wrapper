@@ -30,7 +30,7 @@ def artifactory_wrapper(parser, xml_parent, data):
         data = dict()
 
     notifier = XML.SubElement(xml_parent, 'org.jfrog.hudson.generic.ArtifactoryGenericConfigurator')
-    notifier.set('plugin', 'artifactory@2.3.0')
+    notifier.set('plugin', 'artifactory@2.3.1')
 
     # details
 
